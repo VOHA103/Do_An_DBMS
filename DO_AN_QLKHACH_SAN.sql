@@ -1089,22 +1089,7 @@ SELECT * FROM THUEPHONG
 drop trigger TG_THUEPHONG1
 go
 
------7.Viết trigger khi xoá 1 dòng dữ liệu trong bảng khach hang   thì trong bảng thue phong   có khach hang   đó cũng xoá theo.
---CREATE TRIGGER TG_XOAKHACH1 ON KHACHHANG
---INSTEAD OF DELETE
---AS
---BEGIN
---		DECLARE @MaKH CHAR(10)
---		SET @MaKH=(SELECT MaKH FROM deleted)
---		DELETE KHACHHANG WHERE MaKH=@MaKH
---		DELETE THUEPHONG WHERE MaKH=@MaKH
---END
---go
---delete from KHACHHANG where  MaKH='KH03'
 
---SELECT*FROM KHACHHANG
---SELECT*FROM THUEPHONG
-go
 ----------------------------------------------------------CÁC CURSOR---------------------------------------------------------------------------
 
 ---1.Viết thủ tục kết hợp cusor truyền vào mã phong  sẽ in ra danh sách bao gồm:mã phòng ,tên khách hàng dg thue
@@ -1371,7 +1356,7 @@ REVOKE insert,update,delete
 ON NHANVIEN
 FROM giamdoc
 GO
--------GIAO TAC
+-----------------------------------------------------------TRANSACTION (GIAO TAC)----------------------------------------------------------------------------
 
 
 ---GT 1:(SERIALIZABLE)--DOC --GHI
