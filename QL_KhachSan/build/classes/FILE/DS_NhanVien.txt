@@ -1,0 +1,13 @@
+NV001      Dương Đông Duy      Nam      04/12/2001      0376880903      
+NV002      Hồ Đức Duy      Nam      30/10/2000      0348770100      
+NV003      VŨ THỊ THANH DANH      Nữ      02/05/1999      0473526483      
+NV004      Võ Thị Thu Hà      Nữ      08/03/2001      0328090646      
+NV005      Điêu Ngoc Trinh      Nữ      04/11/2001      0376880000      
+NV006      VŨ THỊ THANH DANH      Nữ      02/05/1999      0473526483      
+NV007      Nguyễn Thị Thảo Vy      Nữ      01/02/2001      0353676482      
+NV008      Ngô Thanh Huyền      Nữ      08/03/2001      0583527543      
+NV010      LÊ XUÂN BẮC      Nam      03/06/2001      0376880400      
+NV012      VŨ THỊ THANH DANH      Nữ      30/04/2000      0473526483      
+NV013      LƯU THANH BÌNH      Nam      26/02/1999      0387529267      
+NV014      VŨ THỊ THANH DANH      Nữ      02/05/1999      0473526483      
+NV09      VŨ THỊ THANH DANH      Nữ      02/05/1999      0473526483      
